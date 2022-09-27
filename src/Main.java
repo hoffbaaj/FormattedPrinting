@@ -5,7 +5,8 @@ public class Main
         double salary = 455678.12345;
         int age = 18;
         String name = "Andrew Hoffbauer";
-
-        System.out.printf("%20s%5d%12.2f", name, age, salary);
+        for(int x = 0; x < 15;x++) {
+            System.out.printf("\n%-20s%5d%12.2f", name, age, salary);
+        }
     }
 }
